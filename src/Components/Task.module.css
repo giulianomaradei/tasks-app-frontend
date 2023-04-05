@@ -1,0 +1,13 @@
+.task{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 15px;
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    margin: 0.5rem 0;
+}
+
+.title{
+    font-size: clamp(1.5rem, 1.338rem + 0.8642vw, 2.375rem);
+    font-weight: bold;
+}

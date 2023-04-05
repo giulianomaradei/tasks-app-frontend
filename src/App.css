@@ -1,0 +1,15 @@
+body{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Roboto";   /*Can be any text*/
+  src: local("RobotoMono-Regular"),
+    url("./Assets/Fonts/RobotoMono-Regular.ttf") format("truetype");
+}

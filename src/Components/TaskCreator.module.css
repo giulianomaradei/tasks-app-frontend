@@ -1,0 +1,96 @@
+.formContainer{
+    width: 60rem;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #2E3840;
+
+    gap: 3px;
+    font-family: Roboto;
+}
+
+.inputField{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 8px;
+    height: 3rem;
+    width: 30rem;
+    max-width: 90%;
+    color: rgb(0, 0, 0);
+}
+
+.inputField:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.inputField::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.required::before {
+    content: "*";
+    color: red;
+}
+
+.formContainer textarea{
+    height: 7rem;
+}
+
+.formContainer button{
+    background-color: #19A7CE;
+    border: 1px solid black;
+    padding: 0.2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    color: white;
+    height: 3rem;
+}
+
+.formContainer button:hover{
+    background-color: #127591;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button, input,textarea {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    resize: none;
+}
