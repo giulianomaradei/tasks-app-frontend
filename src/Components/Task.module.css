@@ -5,9 +5,50 @@
     font-family: Roboto;
     color: rgb(0, 0, 0);
     margin: 0.5rem 0;
+
+    position: relative;
 }
 
 .title{
     font-size: clamp(1.5rem, 1.338rem + 0.8642vw, 2.375rem);
     font-weight: bold;
+}
+
+.buttonSection{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    right: 1%;
+    top: 5%;
+}
+
+.done{
+    border: 1px solid black;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 100vw;
+}
+
+.done:hover{
+    background-color: rgb(219, 219, 219);
+}
+.done:active{
+    background-color: rgb(2, 208, 2);
+}
+
+.delete{
+    filter: invert(27%) sepia(57%) saturate(7433%) hue-rotate(352deg) brightness(91%) contrast(133%);
+}
+
+.delete:hover{
+    filter: invert(8%) sepia(68%) saturate(5886%) hue-rotate(323deg) brightness(99%) contrast(106%);
+}
+
+.deleteImage{
+    height: 20px;
+    width: 20px;
 }
