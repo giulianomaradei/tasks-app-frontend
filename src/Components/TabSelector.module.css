@@ -1,0 +1,24 @@
+.tabsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.tab{
+    background-color: rgb(218, 218, 218);
+    padding: 0.5rem 1rem;
+    color: black;
+    cursor:pointer;
+}
+
+ .tab:nth-child(1){
+    border-top-left-radius: 15px;
+ }
+
+ .tab:nth-child(2){
+    border-top-right-radius: 15px;
+ }
+
+ .tabSelected{
+    background-color: #2E3840;
+    color: white;
+ }
