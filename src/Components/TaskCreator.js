@@ -17,7 +17,7 @@ function TaskCreator(props){
 
     function formSubmitHandler(event){
         event.preventDefault();
-        props.newTaskHandler({title:title,description:description})
+        props.newTaskHandler({title:title,description:description,key:Math.random(),id:Math.random()})
         setTitle("");
         setDescription("");
     }
